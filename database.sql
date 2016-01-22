@@ -35,5 +35,6 @@ CREATE TABLE categories (
 
 CREATE TABLE category_post (
 	id_category INT(11),
-	id_post INT (11)
+	id_post INT (11),
+	PRIMARY KEY(id_category, id_post)
 );
