@@ -20,7 +20,11 @@
  		<!-- for jdbc transaction -->
  		<property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
         
-        <mapping class="employees.it.matteoavanzini.examples.model.Employee"></mapping>
+        <mapping class="it.matteoavanzini.articles.Author"></mapping>
+        <mapping class="it.matteoavanzini.articles.Post"></mapping>
+        <mapping class="it.matteoavanzini.articles.Comment"></mapping>
+        <mapping class="it.matteoavanzini.articles.Role"></mapping>
+        <mapping class="it.matteoavanzini.articles.Category"></mapping>
         
     </session-factory>
 </hibernate-configuration>
